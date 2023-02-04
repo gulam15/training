@@ -2,7 +2,10 @@
   "name": "training",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start-function-app": "nx serve function-app --watch",
+    "start-class-app": "nx serve class-app --watch"
+  },
   "private": true,
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
